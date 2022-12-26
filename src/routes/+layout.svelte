@@ -9,6 +9,10 @@
 
 <svelte:head>
 	<title>Guilherme Sousa</title>
+	<meta
+		name="description"
+		content="This is my personal den. Read my thoughts, failed experiments and TV show reviews here."
+	/>
 </svelte:head>
 
 <div class="bg-zinc-900 pt-16 pb-16 min-h-screen">
