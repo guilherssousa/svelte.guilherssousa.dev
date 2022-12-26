@@ -49,7 +49,7 @@
 			<ul class="mt-2">
 				<li>
 					<a href="https://guilherssousa.dev" class="link" target="_blank" rel="noreferrer"
-						>My website</a
+						>My current website</a
 					>
 				</li>
 				<li>
