@@ -13,7 +13,7 @@
 				alt="A beautiful train station."
 				class="h-full w-full rounded-md object-cover"
 			/>
-			<div class="mt-2 text-xs text-zinc-700 self-end">Photo taken by gaijininjapan.com</div>
+			<div class="mt-2 text-xs text-zinc-700 self-end">Photo by ssedaulgen</div>
 		</div>
 		<div class="md:w-3/5 mt-2">
 			<div class="flex flex-col">

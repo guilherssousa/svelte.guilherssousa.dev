@@ -7,7 +7,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ['Inter', ...defaultTheme.fontFamily.sans],
-				serif: ['Brygada 1918', ...defaultTheme.fontFamily.serif]
+				serif: ['"Brygada 1918"', ...defaultTheme.fontFamily.serif]
 			}
 		}
 	},

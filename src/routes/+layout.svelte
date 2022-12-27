@@ -18,10 +18,35 @@
 
 <svelte:head>
 	<title>Guilherme Sousa</title>
+
+	<meta name="title" content="Guilherme Sousa" />
+
 	<meta
 		name="description"
 		content="This is my personal den. Read my thoughts, failed experiments and TV show reviews here."
 	/>
+	<meta name="keywords" content="personal, den, svelte" />
+	<meta name="robots" content="index, follow" />
+	<meta name="language" content="English" />
+	<meta name="author" content="Guilherme Sousa" />
+
+	<meta
+		name="description"
+		content="This is my personal den. Read my thoughts, failed experiments and TV show reviews here."
+	/>
+
+	<meta property="og:locale" content="en-US" />
+	<meta property="og:title" content="Guilherme Sousa" />
+	<meta
+		property="og:description"
+		content="This is my personal den. Read my thoughts, failed experiments and TV show reviews here."
+	/>
+	<meta property="og:site_name" content="Guilherme Sousa" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Guilherme Sousa" />
+	<meta name="twitter:site" content="@eeveeiuv" />
+	<meta name="twitter:creator" content="@eeveeiuv" />
 </svelte:head>
 
 <div class="{theme} pt-16 pb-16 min-h-screen">
