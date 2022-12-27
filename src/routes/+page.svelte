@@ -46,7 +46,7 @@
 				more:
 			</p>
 
-			<ul class="mt-2">
+			<ul class="mt-2 flex flex-col gap-y-1">
 				<li>
 					<a href="https://guilherssousa.dev" class="link" target="_blank" rel="noreferrer"
 						>My current website</a
