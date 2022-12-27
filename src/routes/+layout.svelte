@@ -4,7 +4,16 @@
 	import '@fontsource/inter/500.css';
 	import '@fontsource/inter/700.css';
 
-	import '../app.css';
+	import '@fontsource/brygada-1918/700.css';
+
+	import '../app.scss';
+
+	const themes = {
+		light: 'light-theme',
+		dark: 'dark-theme'
+	};
+
+	let theme = themes.dark;
 </script>
 
 <svelte:head>
@@ -15,8 +24,8 @@
 	/>
 </svelte:head>
 
-<div class="bg-zinc-900 pt-16 pb-16 min-h-screen">
-	<div class="mx-auto max-w-screen-lg px-6 text-zinc-300">
+<div class="{theme} pt-16 pb-16 min-h-screen">
+	<div class="mx-auto max-w-screen-lg px-6">
 		<nav>
 			<ul class="flex gap-x-6">
 				<li><a href="/" class="font-medium">Guilherme Sousa</a></li>

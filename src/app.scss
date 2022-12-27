@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a[target='_blank'].link {
+	@apply underline decoration-[2px] primary;
+}
+
+.light-theme {
+	@apply bg-slate-100 text-slate-900;
+
+	.primary {
+		@apply text-blue-400;
+	}
+
+	.theme-spotlight {
+		@apply bg-slate-50 border-slate-200;
+
+		.spotlight-description {
+			@apply text-slate-600;
+		}
+	}
+}
+
+.dark-theme {
+	@apply bg-zinc-900 text-zinc-300;
+
+	.primary {
+		@apply text-blue-300;
+	}
+
+	.theme-spotlight {
+		@apply bg-neutral-900 border-zinc-800;
+
+		.spotlight-description {
+			@apply text-zinc-400;
+		}
+	}
+}
