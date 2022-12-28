@@ -10,7 +10,8 @@
 
 	const themes = {
 		light: 'light-theme',
-		dark: 'dark-theme'
+		dark: 'dark-theme',
+		comrade: 'comrade-theme'
 	};
 
 	let theme = themes.dark;

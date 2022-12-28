@@ -37,3 +37,25 @@ a[target='_blank'].link {
 		}
 	}
 }
+
+.comrade-theme {
+	background-image: url('/mels.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-position: center;
+
+	@apply bg-red-900 text-amber-100;
+
+	.primary {
+		@apply text-amber-300;
+	}
+
+	.theme-spotlight {
+		@apply bg-red-800 border-orange-800;
+
+		.spotlight-description {
+			@apply text-amber-400;
+		}
+	}
+}
