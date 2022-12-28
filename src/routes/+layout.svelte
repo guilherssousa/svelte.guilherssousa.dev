@@ -73,8 +73,9 @@
 	<div class="pt-16 pb-16 min-h-screen">
 		<div class="mx-auto max-w-screen-lg px-6">
 			<nav class="flex items-baseline justify-between">
-				<ul class="flex gap-x-6">
-					<li><a href="/" class="font-medium">Guilherme Sousa</a></li>
+				<ul class="flex gap-x-4 sm:gap-x-6">
+					<li class="hidden sm:block"><a href="/" class="font-medium">Guilherme Sousa</a></li>
+					<li class="sm:hidden block"><a href="/" class="font-medium">Home</a></li>
 					<li><a href="/about">About</a></li>
 					<li><a href="/blog">Blog</a></li>
 					<li>
