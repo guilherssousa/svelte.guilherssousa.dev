@@ -10,7 +10,15 @@ a[target='_blank'].link {
 	@apply bg-slate-100 text-slate-900;
 
 	.primary {
-		@apply text-blue-400;
+		@apply text-blue-900;
+	}
+
+	.slightly-primary {
+		@apply bg-sky-400;
+	}
+
+	.theme-border {
+		@apply border-slate-200;
 	}
 
 	.theme-spotlight {
@@ -27,6 +35,14 @@ a[target='_blank'].link {
 
 	.primary {
 		@apply text-blue-300;
+	}
+
+	.slightly-primary {
+		@apply bg-sky-800;
+	}
+
+	.theme-border {
+		@apply border-zinc-800;
 	}
 
 	.theme-spotlight {
@@ -49,6 +65,14 @@ a[target='_blank'].link {
 
 	.primary {
 		@apply text-amber-300;
+	}
+
+	.slightly-primary {
+		@apply bg-amber-800;
+	}
+
+	.theme-border {
+		@apply border-red-800;
 	}
 
 	.theme-spotlight {

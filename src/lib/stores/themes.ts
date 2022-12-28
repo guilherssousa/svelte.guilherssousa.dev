@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store';
 
-const themes = {
+export const themes = {
 	chase: {
 		id: 'chase',
 		name: 'Chase',
@@ -24,7 +24,7 @@ type Theme = {
 	class: string;
 };
 
-type AvailableThemes = keyof typeof themes;
+export type AvailableThemes = keyof typeof themes;
 
 function themeStore() {
 	const { subscribe, set } = writable<Theme>(themes.chase);
