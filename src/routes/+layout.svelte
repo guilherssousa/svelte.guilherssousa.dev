@@ -8,13 +8,7 @@
 
 	import '../app.scss';
 
-	const themes = {
-		light: 'light-theme',
-		dark: 'dark-theme',
-		comrade: 'comrade-theme'
-	};
-
-	let theme = themes.dark;
+	import { theme } from '$lib/stores/themes';
 </script>
 
 <svelte:head>
@@ -50,7 +44,7 @@
 	<meta name="twitter:creator" content="@eeveeiuv" />
 </svelte:head>
 
-<div class="{theme} pt-16 pb-16 min-h-screen">
+<div class="{$theme.class} pt-16 pb-16 min-h-screen">
 	<div class="mx-auto max-w-screen-lg px-6">
 		<nav>
 			<ul class="flex gap-x-6">
