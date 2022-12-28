@@ -10,7 +10,7 @@
 
 	import { theme, themes, type AvailableThemes } from '$lib/stores/themes';
 
-	let showThemePicker = true;
+	let showThemePicker = false;
 
 	const handleToggleThemePicker = () => {
 		showThemePicker = !showThemePicker;
