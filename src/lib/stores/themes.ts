@@ -27,10 +27,20 @@ type Theme = {
 export type AvailableThemes = keyof typeof themes;
 
 function themeStore() {
-	const { subscribe, set } = writable<Theme>(themes.chase);
+	let initialTheme: AvailableThemes = 'chase';
+
+	if (typeof window !== 'undefined') {
+		const storedTheme = localStorage.getItem('@svelte.guilherssousa:theme');
+		if (storedTheme) {
+			initialTheme = storedTheme as AvailableThemes;
+		}
+	}
+
+	const { subscribe, set } = writable<Theme>(themes[initialTheme]);
 
 	function changeTheme(themeId: AvailableThemes) {
 		const theme = themes[themeId];
+		localStorage.setItem('@svelte.guilherssousa:theme', themeId);
 		set(theme);
 	}
 
