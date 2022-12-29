@@ -86,7 +86,7 @@
 			<SpotlightProject
 				title="SWR"
 				href="https://swr.vercel.app/pt-BR"
-				description="SWR is a React Hooks library for remote data fetching. I work on Portuguese Brazilian translations."
+				description="SWR is a React Hooks library for remote data fetching. I work on Brazilian Portuguese translations."
 			/>
 			<SpotlightProject
 				title="Dissecting create-vite"
