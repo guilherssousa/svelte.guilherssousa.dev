@@ -60,7 +60,7 @@
 			<div class="max-w-screen-lg mx-auto flex gap-x-8">
 				{#each Object.values(themes) as themeSample}
 					<button
-						class="{themeSample.class} px-4 py-2 border rounded-md font-bold"
+						class="{themeSample.class} px-4 py-2 border theme-border rounded-md font-bold"
 						on:click={() => handleThemeChange(themeSample.id)}
 					>
 						{themeSample.name}

@@ -10,11 +10,11 @@ a[target='_blank'].link {
 	@apply bg-slate-100 text-slate-900;
 
 	.primary {
-		@apply text-blue-900;
+		@apply text-blue-500;
 	}
 
 	.slightly-primary {
-		@apply bg-sky-400;
+		@apply bg-sky-300;
 	}
 
 	.theme-border {
@@ -55,12 +55,6 @@ a[target='_blank'].link {
 }
 
 .comrade-theme {
-	background-image: url('/mels.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-blend-mode: soft-light;
-	background-position: center;
-
 	@apply bg-red-900 text-amber-100;
 
 	.primary {
@@ -79,7 +73,7 @@ a[target='_blank'].link {
 		@apply bg-red-800 border-orange-800;
 
 		.spotlight-description {
-			@apply text-amber-400;
+			@apply text-orange-300;
 		}
 	}
 }
