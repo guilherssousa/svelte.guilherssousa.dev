@@ -4,7 +4,7 @@ export default function summarify(markdown: string) {
 	const topics = lines
 		.filter((line) => line.startsWith('## '))
 		.map((topic) => {
-			const [_, value] = topic.split('## ');
+			const [, value] = topic.split('## ');
 
 			return {
 				text: value,
