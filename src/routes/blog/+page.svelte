@@ -1,3 +1,16 @@
+<script lang="ts">
+	import type { PageServerData } from './$types';
+
+	export let data: PageServerData;
+
+	const formatDate = (date: string) =>
+		new Date(date).toLocaleString('en-US', {
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric'
+		});
+</script>
+
 <div>
 	<h2 class="heading-1">
 		Blog
@@ -21,4 +34,17 @@
 		All of them
 		<span class="text-base opacity-80 ml-2">Latest ones, actually</span>
 	</h2>
+
+	<div class="mt-3">
+		{#each data.posts as post}
+			<a href="/blog/{post.slug}">
+				<div class="flex items-baseline justify-between">
+					<div class="text-xl">
+						{post.title}
+					</div>
+					<div class="opacity-80">{formatDate(post.createdAt)}</div>
+				</div>
+			</a>
+		{/each}
+	</div>
 </div>

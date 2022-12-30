@@ -18,7 +18,7 @@
 	<meta name="description" content={postDescription} />
 </svelte:head>
 
-<article class="mt-16 prose prose-invert">
+<article class="mt-16 prose theme-prose">
 	<div>
 		<h1>{data.title}</h1>
 

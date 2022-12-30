@@ -21,6 +21,10 @@ a[target='_blank'].link {
 		@apply bg-sky-300;
 	}
 
+	.theme-prose {
+		@apply prose-slate;
+	}
+
 	.theme-border {
 		@apply border-slate-200;
 	}
@@ -45,6 +49,10 @@ a[target='_blank'].link {
 		@apply bg-sky-800;
 	}
 
+	.theme-prose {
+		@apply prose-invert;
+	}
+
 	.theme-border {
 		@apply border-zinc-800;
 	}
@@ -67,6 +75,10 @@ a[target='_blank'].link {
 
 	.slightly-primary {
 		@apply bg-amber-800;
+	}
+
+	.theme-prose {
+		@apply text-amber-100 prose-blockquote:text-amber-100 prose-h1:text-amber-200 prose-a:text-amber-200 prose-h2:text-amber-200 prose-em:text-amber-200 prose-h3:text-amber-200 prose-strong:text-amber-200;
 	}
 
 	.theme-border {
