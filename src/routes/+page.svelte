@@ -17,9 +17,7 @@
 		</div>
 		<div class="md:w-3/5 mt-2">
 			<div class="flex flex-col">
-				<h1 class="indent-4 text-2xl md:text-3xl font-serif font-bold italic leading-normal">
-					You can overcome anything, as long as you're alive.
-				</h1>
+				<h2 class="heading-1 indent-4">You can overcome anything, as long as you're alive.</h2>
 				<span class="self-end text-zinc-400 italic">박새로이</span>
 			</div>
 
@@ -68,9 +66,7 @@
 	<section class="mt-32 leading-relaxed text-lg flex gap-x-8">
 		<div class="md:w-3/5 mt-2">
 			<div class="flex flex-col">
-				<h1 class="indent-4 text-2xl md:text-3xl font-serif font-bold italic leading-normal">
-					Spotlight stuff I've done
-				</h1>
+				<h2 class="heading-1 indent-2">Spotlight stuff I've done</h2>
 			</div>
 
 			<p class="mt-6 indent-4">

@@ -6,6 +6,10 @@ a[target='_blank'].link {
 	@apply underline decoration-[2px] primary;
 }
 
+.heading-1 {
+	@apply text-2xl md:text-3xl font-serif font-bold italic leading-normal;
+}
+
 .light-theme {
 	@apply bg-slate-100 text-slate-900;
 
