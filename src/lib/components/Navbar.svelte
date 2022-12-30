@@ -3,11 +3,11 @@
 </script>
 
 <nav class="flex items-baseline justify-between">
-	<ul class="flex gap-x-4 sm:gap-x-6">
-		<li class="hidden sm:block font-serif">
-			<a href="/" class="font-medium">Guilherme Sousa</a>
+	<ul class="flex items-baseline gap-x-4 sm:gap-x-6">
+		<li class="hidden sm:block">
+			<a href="/" class="font-bold font-serif text-lg">Guilherme Sousa</a>
 		</li>
-		<li class="sm:hidden block"><a href="/" class="font-medium">Home</a></li>
+		<li class="sm:hidden block"><a href="/" class="font-bold font-serif">Home</a></li>
 		<li><a href="/about">About</a></li>
 		<li><a href="/blog">Blog</a></li>
 		<li>
