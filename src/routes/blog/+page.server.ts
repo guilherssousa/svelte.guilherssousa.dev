@@ -10,7 +10,7 @@ type Post = {
 export const load = (async () => {
 	const postsQuery = `
         query Posts {
-            posts(first: 20) {
+            posts(first: 20, orderBy: createdAt_DESC) {
                 title
                 createdAt
                 slug
