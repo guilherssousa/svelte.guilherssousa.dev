@@ -37,8 +37,8 @@
 
 	<div class="mt-3">
 		{#each data.posts as post}
-			<a href="/blog/{post.slug}" class="mt-2 block">
-				<div class="flex items-baseline justify-between">
+			<a href="/blog/{post.slug}" class="mt-2 mb-4 block">
+				<div class="flex flex-col gap-y-2 md:flex-row items-baseline justify-between">
 					<div class="font-medium hover:underline">
 						{post.title}
 					</div>
