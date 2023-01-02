@@ -36,6 +36,7 @@
 	"dependencies": {
 		"@fontsource/brygada-1918": "^4.5.11",
 		"@fontsource/inter": "^4.5.14",
-		"svelte-markdown": "^0.2.3"
+		"svelte-markdown": "^0.2.3",
+		"svelte-themes": "^1.0.10"
 	}
 }

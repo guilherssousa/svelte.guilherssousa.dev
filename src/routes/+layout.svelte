@@ -9,9 +9,12 @@
 
 	import '../app.scss';
 
+	import SvelteTheme from 'svelte-themes/SvelteTheme.svelte';
+	import themeStore from 'svelte-themes/themeStore';
+
 	import Navbar from '$lib/components/Navbar.svelte';
 
-	import { theme, themes, type AvailableThemes } from '$lib/stores/themes';
+	import { themes } from '$lib/stores/themes';
 
 	let showThemePicker = false;
 
@@ -19,9 +22,9 @@
 		showThemePicker = !showThemePicker;
 	};
 
-	const handleThemeChange = (themeId: AvailableThemes) => {
-		theme.changeTheme(themeId);
-	};
+	// const handleThemeChange = (themeId: AvailableThemes) => {
+	// 	theme.changeTheme(themeId);
+	// };
 </script>
 
 <svelte:head>
@@ -57,8 +60,14 @@
 	<meta name="twitter:creator" content="@eeveeiuv" />
 </svelte:head>
 
-<div class={$theme.class}>
-	{#if showThemePicker}
+<SvelteTheme
+	storageKey="@svelte.guilherssousa:theme"
+	defaultTheme="dark-theme"
+	themes={['dark-theme', 'light-theme', 'comrade-theme']}
+/>
+
+<div class={$themeStore.theme}>
+	<!-- {#if showThemePicker}
 		<div class="border-b h-24 flex items-center w-full theme-border">
 			<div class="max-w-screen-lg mx-auto flex gap-x-8">
 				{#each Object.values(themes) as themeSample}
@@ -71,7 +80,7 @@
 				{/each}
 			</div>
 		</div>
-	{/if}
+	{/if} -->
 
 	<div class="pt-16 pb-16 min-h-screen">
 		<div class="mx-auto max-w-screen-lg px-6">
